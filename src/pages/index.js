@@ -1,4 +1,5 @@
 import React from 'react';
+import BubbleChart from '@weknow/react-bubble-chart-d3';
 
 import Layout from '../components/Layout';
 
@@ -6,6 +7,21 @@ import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Resume from '../components/sections/Resume';
 import config from '../../config';
+
+const skillsData = [
+  { label: 'HTML', value: 90 },
+  { label: 'CSS', value: 80 },
+  { label: 'JavaScript', value: 75 },
+  { label: 'PHP', value: 80 },
+  { label: 'Laravel', value: 50 },
+  { label: 'React', value: 40 },
+  { label: 'React Native', value: 30 },
+  { label: 'Node', value: 40 },
+  { label: 'Python', value: 10 },
+  { label: 'Ruby on Rails', value: 25 },
+  { label: 'MySql', value: 75 },
+  { label: 'PostgreSQL', value: 70 },
+]
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -149,45 +165,33 @@ const IndexPage = () => (
           <div className="subheading mb-3">
             Programming Languages &amp; Tools
           </div>
-          <ul className="list-inline dev-icons">
-            <li className="list-inline-item">
-              <i className="fab fa-html5"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-css3-alt"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-js-square"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-angular"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-react"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-node-js"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-sass"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-less"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-wordpress"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-gulp"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-grunt"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-npm"></i>
-            </li>
-          </ul>
 
+          <BubbleChart
+            width={950}
+            height={800}
+            padding={0} // optional value, number that set the padding between bubbles
+            showLegend={true} // optional value, pass false to disable the legend.
+            legendPercentage={20} // number that represent the % of with that legend going to use.
+            legendFont={{
+              family: 'Arial',
+              size: 16,
+              color: '#000',
+              weight: 'bold',
+            }}
+            valueFont={{
+              family: 'Arial',
+              size: 16,
+              color: '#fff',
+              weight: 'bold',
+            }}
+            labelFont={{
+              family: 'Arial',
+              size: 16,
+              color: '#fff',
+              weight: 'bold',
+            }}
+            data={skillsData}
+          />
           <div className="subheading mb-3">Workflow</div>
           <ul className="fa-ul mb-0">
             <li>
