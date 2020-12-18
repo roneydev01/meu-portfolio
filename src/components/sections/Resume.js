@@ -22,7 +22,7 @@ const Resume = ({ firstName, lastName, address, phone, email, socialLinks, child
           {socialLinks.map(social => {
             const { icon, url } = social;
             return (
-              <a key={url} href={url}>
+              <a key={url} href={url} target="_blank">
                 <i className={`fab ${icon}`}></i>
               </a>
             );
