@@ -8,6 +8,7 @@ import Sidebar from '../components/Sidebar';
 import Resume from '../components/sections/Resume';
 import Experience from '../components/sections/Experience';
 import Education from '../components/sections/Education';
+import Insterests from '../components/sections/Interests';
 import config from '../../config';
 
 const skillsData = [
@@ -60,7 +61,7 @@ const IndexPage = () => (
           <h2 className="mb-5">Skills</h2>
 
           <div className="subheading mb-3">
-            Programming Languages &amp; Tools
+            Ferramentas &amp; Linguagens de Programação
           </div>
 
           <BubbleChart
@@ -94,26 +95,7 @@ const IndexPage = () => (
 
       <hr className="m-0" />
 
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="interests"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Interesses</h2>
-          <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
-          </p>
-          <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
-          </p>
-        </div>
-      </section>
+      <Insterests />
 
       <hr className="m-0" />
 
