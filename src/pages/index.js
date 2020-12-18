@@ -47,7 +47,7 @@ const IndexPage = () => (
         id="experience"
       >
         <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
+          <h2 className="mb-5">Experiência</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
@@ -126,7 +126,7 @@ const IndexPage = () => (
         id="education"
       >
         <div className="w-100">
-          <h2 className="mb-5">Education</h2>
+          <h2 className="mb-5">Formação</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
@@ -192,25 +192,6 @@ const IndexPage = () => (
             }}
             data={skillsData}
           />
-          <div className="subheading mb-3">Workflow</div>
-          <ul className="fa-ul mb-0">
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
-            </li>
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
-            </li>
-          </ul>
         </div>
       </section>
 
@@ -221,7 +202,7 @@ const IndexPage = () => (
         id="interests"
       >
         <div className="w-100">
-          <h2 className="mb-5">Interests</h2>
+          <h2 className="mb-5">Interesses</h2>
           <p>
             Apart from being a web developer, I enjoy most of my time being
             outdoors. In the winter, I am an avid skier and novice ice climber.
@@ -244,7 +225,7 @@ const IndexPage = () => (
         id="awards"
       >
         <div className="w-100">
-          <h2 className="mb-5">Awards &amp; Certifications</h2>
+          <h2 className="mb-5">Certificados</h2>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Scrollspy from 'react-scrollspy';
 import Scroll from './Scroll';
 
-import avatar from '../assets/images/avatar.png';
+import avatar from '../assets/images/avatar.jpg';
 import config from '../../config';
 
 export class Sidebar extends Component {
@@ -10,12 +10,12 @@ export class Sidebar extends Component {
     super(props);
     this.state = {
       tabs: [
-        { content: 'About', href: 'about' },
-        { content: 'Experience', href: 'experience' },
-        { content: 'Education', href: 'education' },
+        { content: 'Sobre', href: 'about' },
+        { content: 'Experiência', href: 'experience' },
+        { content: 'Formação', href: 'education' },
         { content: 'Skills', href: 'skills' },
-        { content: 'Interests', href: 'interests' },
-        { content: 'Awards', href: 'awards' },
+        { content: 'Interesses', href: 'interests' },
+        { content: 'Certificados', href: 'awards' },
       ],
       isCollapsed: true,
     };
@@ -48,8 +48,7 @@ export class Sidebar extends Component {
           </span>
         </a>
         <button
-          className={`navbar-toggler navbar-toggler-right ${
-            isCollapsed ? 'collapsed' : ''
+          className={`navbar-toggler navbar-toggler-right ${isCollapsed ? 'collapsed' : ''
             }`}
           type="button"
           data-toggle="collapse"

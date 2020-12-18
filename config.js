@@ -23,14 +23,9 @@ module.exports = {
       url: 'https://www.linkedin.com/in/roney-freitas-99b264114/',
     },
     {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
       icon: 'fa-facebook-f',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://www.facebook.com/roneyfreitas01',
     },
   ],
   email: 'roneyfreitas.rf@gmail.com',
