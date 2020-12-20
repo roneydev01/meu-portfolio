@@ -24,10 +24,18 @@ const IndexPage = () => (
         email={config.email}
         socialLinks={config.socialLinks}
       >
-        Tenho experiência em aproveitar estruturas ágeis para fornecer uma
-        sinopse para visões gerais de alto nível. Abordagens iterativas para empresas
-        com estratégia, promover o pensamento colaborativo para promover o valor geral
-        proposição.
+        Profissional graduado em Bacharelado em Sistemas de Informação, 
+        atuando há mais 4 (quatro) anos projetos de tecnologia, tanto para fins 
+        de aprendizado como para soluções de problemas. Experiência na liderança 
+        e coordenação de equipes de pequeno (2 a 5 profissionais) porte para 
+        projetos de desenvolvimento de software. Reconhecido pelo comprometimento, 
+        concentração e foco, aprendizado rápido, ótima relação com o cliente, grande 
+        capacidade para resolução de problemas, e principalmente, por buscar compartilhar 
+        conhecimento – tanto ao oferecê-lo, quanto ao aprender com colegas. 
+        Possuo espanhol fluente, excelentes capacidades de análise, escrita e raciocínio, 
+        inglês intermediário com capacidades de analises, além de um extenso 
+        conhecimento em tecnologias da informação.
+        
       </Resume>
 
       <hr className="m-0" />
