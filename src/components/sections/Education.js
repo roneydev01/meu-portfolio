@@ -11,24 +11,22 @@ const Education = () => {
 
         <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div className="resume-content">
-            <h3 className="mb-0">University of Colorado Boulder</h3>
-            <div className="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science - Web Development Track</div>
-            <p>GPA: 3.23</p>
+            <h3 className="mb-0">Bacharel em Sistemas de Infomação</h3>
+            <div className="subheading mb-3">FIED - Faculdade IEducare</div>
           </div>
           <div className="resume-date text-md-right">
-            <span className="text-primary">August 2006 - May 2010</span>
+            <span className="text-primary">Fevereiro 2013 - Dezembro 2016</span>
           </div>
         </div>
 
         <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div className="resume-content">
-            <h3 className="mb-0">James Buchanan High School</h3>
-            <div className="subheading mb-3">Technology Magnet Program</div>
-            <p>GPA: 3.56</p>
+            <h3 className="mb-0"> Engenharia da Computação </h3>
+            <div className="subheading mb-3">Universidad Nacional Del Sul - Argentina</div>
+            <p>Trancado 3º período</p>
           </div>
           <div className="resume-date text-md-right">
-            <span className="text-primary">August 2002 - May 2006</span>
+            <span className="text-primary">Fevereiro 2010 - Julho 2011</span>
           </div>
         </div>
       </div>
