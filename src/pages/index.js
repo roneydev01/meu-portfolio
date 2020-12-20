@@ -52,10 +52,6 @@ const IndexPage = () => (
 
       <hr className="m-0" />
 
-      <Insterests />
-
-      <hr className="m-0" />
-
       <Certifications />
 
     </div>
