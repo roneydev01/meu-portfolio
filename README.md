@@ -1,3 +1,6 @@
+Este projeto foi construído no evento DoWhile da [Rocketseat].
+
+
 # gatsby-starter-resume
 
 Gatsby.js V2 starter template based on Resume by startbootstrap
