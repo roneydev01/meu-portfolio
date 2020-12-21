@@ -1,5 +1,8 @@
 Este projeto foi construído no evento DoWhile da [Rocketseat].
 
+## Screenshot
+
+![Screenshot](./src/assets/img/demo.png)
 
 # gatsby-starter-resume
 
@@ -9,9 +12,6 @@ For an overview of the project structure please refer to the [Gatsby documentati
 
 Check online preview [here](https://anubhavsrivastava.github.io/gatsby-starter-resume/)
 
-## Screenshot
-
-![Screenshot](./src/assets/img/demo.png)
 
 ## Install
 
